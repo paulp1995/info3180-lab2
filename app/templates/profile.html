@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+ {% block main %} 
+
+ <html>
+     
+        <div class = 'container1'>
+            <div>
+            <img src = "{{url_for('static', filename="IMG_1314.JPG")}}" ></img>
+             </div>
+             
+            <div="user">
+            <h1> {{ name }}</h1>
+            <h5>{{ uname }}</5>
+            <h4>Westmoreland, Jamaica</h4>
+              <h4>{{formatted_date}}</h4>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+         <div class="container2">
+            <div id="para"><p>A person that is willing to make that extra step to attain my goals. I have a strong interest in web development and i am willing to coordinate with you 
+             and something mutually interesting, follow me below!</p>
+             </div>
+             
+             
+        <div id = "left">
+            <h5><strong>30</strong></h5>
+            <label class = "labels">Posts</label>
+        </div>
+
+        <div id = "center">
+            <h5><strong>800</strong></h5>
+            <label class = "labels">Following</label>
+        </div>
+        
+        <div id = "right">
+            <h5><strong>1000</strong></h5>
+            <label class = "labels">Followers</label>
+        </div>
+        
+        <div id ="button"><button id ='value'>Follow</button></div>
+        
+        </div>
+        
+  </html>      
+      
+{% endblock %}

@@ -1,2 +1,2 @@
-# info3180-lab2
-lab2
+# flask_starter
+Starter code for a new Flask Application
